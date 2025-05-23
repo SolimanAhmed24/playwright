@@ -1,0 +1,19 @@
+{
+  "name": "udemy-playwright",
+  "version": "1.0.0",
+  "description": "Automated Software testing with Playwright",
+  "license": "ISC",
+  "author": "Ahmed Soliman",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.19",
+    "globals": "^16.1.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "uuid": "^11.1.0"
+  }
+}
