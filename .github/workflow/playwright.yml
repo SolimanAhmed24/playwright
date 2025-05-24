@@ -2,7 +2,8 @@ name: Playwright Tests
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   playwrighttests:
@@ -11,3 +12,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+
+      - name: Say hello
+        run: echo "Hello"
