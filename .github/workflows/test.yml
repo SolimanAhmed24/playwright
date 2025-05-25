@@ -1,13 +1,23 @@
-name: Test Workflow
-
+name: Playwright Tests
 on:
   push:
-    branches:
-      - main
-
+    branches: [main]
 jobs:
-  hello:
+  playwrighttests:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Test successful"
-      
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Run Tests
+        run: |
+          echo "Start the shopping store application"
+          echo "Install dependencies from lockfile"
+          echo "Run playwright tests"
+
+           
+
+
+
+
+
+
