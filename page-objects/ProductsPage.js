@@ -12,7 +12,7 @@ export class ProductsPage {
    async visit() {
 
 
-      await this.page.goto("localhost:2221");
+      await this.page.goto("http://host.docker.internal:2221");
    }
 
 

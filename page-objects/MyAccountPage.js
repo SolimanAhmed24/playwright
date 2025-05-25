@@ -11,7 +11,7 @@ this.page = page;
 
 async visit(){
 
-await this.page.goto("http://localhost:2221/my-account");
+await this.page.goto("http://host.docker.internal:2221/login?redirect=/my-account");
 
 
 
