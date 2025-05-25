@@ -6,7 +6,11 @@
   "author": "Ahmed Soliman",
   "type": "commonjs",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+   "test:ci": "Playwright test"
+
+
+  },
   "devDependencies": {
     "@playwright/test": "^1.52.0",
     "@types/node": "^22.15.19",
